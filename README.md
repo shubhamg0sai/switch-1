@@ -37,7 +37,7 @@ git clone https://github.com/ShuBhamg0sain/switch-1
 
 cd switch-1
 
-clang switch.c
+clang Switch.c
 
 ./a.out
 
