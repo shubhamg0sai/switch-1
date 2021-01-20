@@ -2,43 +2,43 @@
 #include <math.h>
 int main() 
        {           
-    printf("enter 'a' for converting temperature Fahrenheit to Celsius\n");
+    printf("enter '1' for converting temperature Fahrenheit to Celsius\n");
  
 printf("\n");
   
-  printf("enter 'b' for swapping two numbers without using third variable\n");
+  printf("enter '2' for swapping two numbers without using third variable\n");
  
 printf("\n");
  
-  printf("enter 'c' for swapping two numbers using third variable\n");
+  printf("enter '3' for swapping two numbers using third variable\n");
 
 printf("\n");
 
-  printf("enter 'd' for find then sum and percentage of five subjects\n");
+  printf("enter '4' for find then sum and percentage of five subjects\n");
 
 printf("\n");
 
-  printf("enter 'e' for find smallest number from three different numbers\n");
+  printf("enter '5' for find smallest number from three different numbers\n");
 
 printf("\n");
 
-  printf("enter 'f' for find largest number from three different numbers\n");
+  printf("enter '6' for find largest number from three different numbers\n");
 
 printf("\n");
 
-  printf("enter 'g' for find area of triangle\n");
+  printf("enter '7' for find area of triangle\n");
 
 printf("\n");
 
-  printf("enter 'h' for 1 to 1000 tables\n");
+  printf("enter '8' for 1 to 1000 tables\n");
 
 printf("\n");
 
-  printf("enter 'i' for find a number is even or odd\n");
+  printf("enter '9' for find a number is even or odd\n");
 
 printf("\n");
 
-  printf("enter 'j' for converting a decimal number in Hexadecimal and octal\n");
+  printf("enter '0' for converting a decimal number in Hexadecimal and octal\n");
 
 printf("\n");
 
@@ -56,7 +56,7 @@ printf("\n");
        switch (Shubhamg0sain) 
        { 
         
-       case 'a':
+       case '1':
        printf(" enter temperature in Fahrenheit\n" );
        scanf("%f", &fah);
        cel = (5.0/9) * (fah - 32);       
@@ -64,7 +64,7 @@ printf("\n");
        break;
     
     
-       case 'b':
+       case '2':
        printf("enter two different numbers\n");
        scanf ("%d%d", &x ,&y); 
        printf("before swapping x=%d, y=%d\n", x, y); 
@@ -76,7 +76,7 @@ printf("\n");
        break;
        
          
-       case 'c':
+       case '3':
        printf("enter two different numbers\n");
        scanf ("%d%d", &x ,&y); 
        printf("before swapping x=%d, y=%d\n", x, y); 
@@ -87,7 +87,7 @@ printf("\n");
        break;
        
         
-       case 'd':
+       case '4':
        printf("Enter your five subjects marks\n"); 
        scanf("%f%f%f%f%f",&num1, &num2, &num3, &num4, &num5);
        sum = num1+num2+num3+num4+num5;
@@ -97,7 +97,7 @@ printf("\n");
        break;
        
             
-       case 'e':       
+       case '5':       
        printf("Enter three different numbers\n "); 
        scanf("%lf%lf%lf", &n1, &n2, &n3);   
        if (n1 < n2 && n1 < n3)
@@ -115,7 +115,7 @@ printf("\n");
        break;
        
               
-       case 'f':
+       case '6':
        printf("Enter three different numbers\n "); 
        scanf("%lf%lf%lf", &n1, &n2, &n3);   
        if (n1 > n2 && n1 > n3)
@@ -133,7 +133,7 @@ printf("\n");
        break;
      
 
-       case 'g':       
+       case '7':       
        printf("three side of triangle\n");
        scanf("%f%f%f", &a, &b, &c);
        s = (a+b+c)/2;
@@ -142,7 +142,7 @@ printf("\n");
        break;
        
              
-       case 'h':
+       case '8':
        for(x=1;x<=100;x++)
        {
        for(y=1;y<=10;y++)
@@ -152,7 +152,7 @@ printf("\n");
        break;
     
        
-       case 'i':
+       case '9':
        printf("Enter an integer\n ");
        scanf("%d", &num);
        if(num % 2 == 0) 
@@ -162,7 +162,7 @@ printf("\n");
        break;
     
                 
-       case 'j':
+       case '0':
        printf("Enter a decimal number\n ");
        scanf("%d", &n);
        printf("Octal equivalent of %d is = %o\n", n, n);
