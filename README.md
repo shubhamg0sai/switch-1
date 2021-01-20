@@ -14,7 +14,7 @@
 
    * find area of triangle
 
-   * 1 to 1000 tables
+   * 1 to 100 tables
 
    * find a number is even or odd
 
