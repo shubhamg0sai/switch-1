@@ -30,7 +30,7 @@ printf("\n");
 
 printf("\n");
 
-  printf("enter '8' for 1 to 1000 tables\n");
+  printf("enter '8' for 1 to 100 tables\n");
 
 printf("\n");
 
