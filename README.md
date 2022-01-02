@@ -2,7 +2,7 @@
 
 
 Instagram account
-👉[![Instagram  ](https://img.shields.io/badge/INSTAGRAM-FOLLOW-red?style=for-the-badge&logo=instagram)](https://www.instagram.com/shubhamg0sain)👈
+👉[![Instagram  ](https://img.shields.io/badge/INSTAGRAM-FOLLOW-red?style=for-the-badge&logo=instagram)](https://www.instagram.com/shubhamg0sai)👈
 
    * converting temperature Fahrenheit to Celsius
   
@@ -37,7 +37,7 @@ apt update
 
 pkg install python2 -y
 
-git clone https://github.com/ShuBhamg0sain/switch-1
+git clone https://github.com/shubhamg0sai/switch-1
 
 cd switch-1
 
